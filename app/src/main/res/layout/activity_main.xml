@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.layout.assig11_2.MainActivity">
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp"
+        android:hint="AutoCompleteTextView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Search Products Here" />
+
+</RelativeLayout>
+    <!-- RelativeLayout is a view group that displays child views in relative positions.
+    Autocompletetextview:An editable text view that shows completion suggestions automatically while the user is typing.
+            ID-Any View object may have an integer ID associated with it, to uniquely identify the View within the tree.
+            When the application is compiled, this ID is referenced as an integer, but the ID is typically assigned in the layout XML file
+            as a string, in the id attribute.This is an XML attribute common to all View objects (defined by the View class) and you will use
+            it very often
+            wrap_content tells your view to size itself to the dimensions required by its content.
+            match_parent tells your view to become as big as its parent view group will allow.
+            TextSize will give size of the text-->
